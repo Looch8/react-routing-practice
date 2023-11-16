@@ -7,7 +7,7 @@ import Profile from "./components/Profile.jsx";
 const router = createBrowserRouter([
 	{ path: "/", element: <App /> },
 	{
-		path: "profile",
+		path: "profile/:name",
 		element: <Profile />,
 	},
 ]);
